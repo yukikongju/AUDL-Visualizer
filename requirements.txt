@@ -1,0 +1,7 @@
+BeautifulSoup4
+pandas
+requests
+lxml
+
+# delete
+urllib3
