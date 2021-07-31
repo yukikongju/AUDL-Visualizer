@@ -75,8 +75,31 @@ class Scrapper(object):
         """ Get Number of Season since inauguration -> no season in 2020 (covid)"""
         return CURRENT_YEAR - AUDL_DEBUT
 
+    def download_all_time_player_stats(self):
+        """ Download all-time player stats sheet """
+        hasPlayerLeft = True
+        base_url = "https://theaudl.com/stats/players-all-time?page="
+        page = 1
+        dfs = []  # store all dataframe from each pages
+        while(hasPlayerLeft):
+            try:
+                url = base_url + str(page)
+                page_df = pd.read_html(url)[0]
+                dfs.append(page_df)
+                print(f"Added page {page}")
+                page = page + 1
+            except ValueError:
+                print("No more players to add to dataframe")
+                hasPlayerLeft = False
+
+        # concatenate all page dataframe into single one
+        df = pd.concat(dfs)
+        download_path = self.download_dir + 'AllTimePlayerStats.csv'
+        df.to_csv(download_path, sep=',', index=False)
+
 
 if __name__ == "__main__":
     scrapper = Scrapper(download_dir="Data/")
     #  scrapper.download_all_team_stats()
     #  scrapper.download_all_team_season_player_stats()
+    scrapper.download_all_time_player_stats()
