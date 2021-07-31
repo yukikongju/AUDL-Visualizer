@@ -24,7 +24,7 @@
 
 ## [Features](#features)
 
-- [ ] Live server with stats
+- [ ] Download Team Stats, Team Players Stats and Game Stats as csv file
 - [ ] Visualize Team and Player Statistics
 - [ ] Scatterplot and Cluster Analysis
 
