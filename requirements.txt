@@ -1,7 +1,5 @@
 BeautifulSoup4
+html5lib
+lxml
 pandas
 requests
-lxml
-
-# delete
-urllib3

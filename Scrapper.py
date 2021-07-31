@@ -24,11 +24,12 @@ class Scrapper(object):
         num_seasons = self.get_number_of_seasons()
         for season in range(1, num_seasons+1):
             url = base_url + str(season)
-            df = pd.read_html(url)[0]
             year = self.get_year_from_team_url(url)
+            df = pd.read_html(url)[0]
             download_path = self.download_dir + "Team_Stats/" +\
-                "team_stats_" + str(year) + '.csv'
+                "TeamStats_" + str(year) + '.csv'
             df.to_csv(download_path, sep=',', index=False)
+            print("Succesfully downloaded Team Stats for " + year)
 
     def get_year_and_team_from_team_season_player_url(self, url):
         """ Get Year and team from url """
@@ -50,10 +51,21 @@ class Scrapper(object):
     def download_all_team_season_player_stats(self):
         """ Download stats sheet for all given team in all seasons """
         base_url = "https://theaudl.com/stats/team-season-players?year="
-        url = "https://theaudl.com/stats/team-season-players?year=4&aw_team_id=14"
-        year = CURRENT_YEAR - season  # TO FIX: skip a year
-        df = pd.read_html(url)[0]
-        print(df)
+        for year_id in range(1, self.get_number_of_seasons()+1):
+            for team_id in range(1, NUMBER_OF_TEAMS+1):
+                url = base_url + str(year_id) + '&aw_team_id=' + str(team_id)
+                year, team = self.get_year_and_team_from_team_season_player_url(
+                    url)
+                try:  # if the team exists that year
+                    df = pd.read_html(url)[0]
+                    team_ = team.replace(" ", "")
+                    download_path = self.download_dir + \
+                        'Team_Season_Player_Stats/' + team_ + '_' + year + '.csv'
+                    df.to_csv(download_path, sep=',', index=False)
+                    print("Succesfully downloaded " + year + " " + team
+                          + " players stats")
+                except ValueError:
+                    print(team + " was not part of AUDL that year")
 
     def update_current_team_stats(self):
         pass
@@ -65,5 +77,5 @@ class Scrapper(object):
 
 if __name__ == "__main__":
     scrapper = Scrapper(download_dir="Data/")
-    scrapper.download_all_team_stats()
+    #  scrapper.download_all_team_stats()
     #  scrapper.download_all_team_season_player_stats()
