@@ -38,5 +38,3 @@
 ## [Classes](#classes)
 ## [Ressources](#ressources)
 
-- [Team Season Player Stats](https://theaudl.com/stats/team-season-players)
-- [All-Time Player Stats](https://theaudl.com/stats/players-all-time)

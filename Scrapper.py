@@ -58,6 +58,7 @@ class Scrapper(object):
                     url)
                 try:  # if the team exists that year
                     df = pd.read_html(url)[0]
+                    df = df.rename(columns={'Unnamed: 0': 'Player'})
                     team_ = team.replace(" ", "")
                     download_path = self.download_dir + \
                         'Team_Season_Player_Stats/' + team_ + '_' + year + '.csv'
