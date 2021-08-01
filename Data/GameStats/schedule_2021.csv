@@ -1,124 +1,124 @@
 ID,date,away,home,location,url
 2021-06-04-DC-NY,2021-06-04,DC Breeze,New York Empire,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Minnesota Wind Chill,Madison Radicals,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Detroit Mechanix,Indianapolis AlleyCats,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Tampa Bay Cannons,Philadelphia Phoenix,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,San Jose Spiders,Seattle Cascades,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Tampa Bay Cannons,DC Breeze,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Boston Glory,Pittsburgh Thunderbirds,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,San Diego Growlers,Los Angeles Aviators,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Indianapolis AlleyCats,Chicago Union,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Madison Radicals,Detroit Mechanix,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
-2021-06-04-DC-NY,2021-06-04,Raleigh Flyers,Atlanta Hustle,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-04-DC-NY
+2021-06-04-MIN-MAD,2021-06-04,Minnesota Wind Chill,Madison Radicals,Breese Stevens Field,https://theaudl.com/stats/game/2021-06-04-MIN-MAD
+2021-06-04-DET-IND,2021-06-04,Detroit Mechanix,Indianapolis AlleyCats,Grand Park,https://theaudl.com/stats/game/2021-06-04-DET-IND
+2021-06-04-TB-PHI,2021-06-04,Tampa Bay Cannons,Philadelphia Phoenix,South Philadelphia Super Site,https://theaudl.com/stats/game/2021-06-04-TB-PHI
+2021-06-05-SJ-SEA,2021-06-05,San Jose Spiders,Seattle Cascades,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-06-05-SJ-SEA
+2021-06-05-TB-DC,2021-06-05,Tampa Bay Cannons,DC Breeze,"Carlini Field, Catholic U",https://theaudl.com/stats/game/2021-06-05-TB-DC
+2021-06-05-BOS-PIT,2021-06-05,Boston Glory,Pittsburgh Thunderbirds,JC Stone Field,https://theaudl.com/stats/game/2021-06-05-BOS-PIT
+2021-06-05-SD-LA,2021-06-05,San Diego Growlers,Los Angeles Aviators,LA Southwest College,https://theaudl.com/stats/game/2021-06-05-SD-LA
+2021-06-05-IND-CHI,2021-06-05,Indianapolis AlleyCats,Chicago Union,Langhorst Field,https://theaudl.com/stats/game/2021-06-05-IND-CHI
+2021-06-05-MAD-DET,2021-06-05,Madison Radicals,Detroit Mechanix,Grand Rapids Christian HS,https://theaudl.com/stats/game/2021-06-05-MAD-DET
+2021-06-05-RAL-ATL,2021-06-05,Raleigh Flyers,Atlanta Hustle,St Pius HS Field,https://theaudl.com/stats/game/2021-06-05-RAL-ATL
 2021-06-11-ATL-BOS,2021-06-11,Atlanta Hustle,Boston Glory,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
-2021-06-11-ATL-BOS,2021-06-11,Minnesota Wind Chill,Chicago Union,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
-2021-06-11-ATL-BOS,2021-06-11,DC Breeze,Raleigh Flyers,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
-2021-06-11-ATL-BOS,2021-06-11,Pittsburgh Thunderbirds,Tampa Bay Cannons,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
-2021-06-11-ATL-BOS,2021-06-11,Seattle Cascades,San Jose Spiders,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
-2021-06-11-ATL-BOS,2021-06-11,Dallas Roughnecks,Austin Sol,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
-2021-06-11-ATL-BOS,2021-06-11,Detroit Mechanix,Indianapolis AlleyCats,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
-2021-06-11-ATL-BOS,2021-06-11,Los Angeles Aviators,San Diego Growlers,Hormel Stadium,https://theaudl.com/stats/game/2021-06-11-ATL-BOS
+2021-06-12-MIN-CHI,2021-06-12,Minnesota Wind Chill,Chicago Union,Langhorst Field,https://theaudl.com/stats/game/2021-06-12-MIN-CHI
+2021-06-12-DC-RAL,2021-06-12,DC Breeze,Raleigh Flyers,Durham County Stadium,https://theaudl.com/stats/game/2021-06-12-DC-RAL
+2021-06-12-PIT-TB,2021-06-12,Pittsburgh Thunderbirds,Tampa Bay Cannons,Campbell Park ,https://theaudl.com/stats/game/2021-06-12-PIT-TB
+2021-06-12-SEA-SJ,2021-06-12,Seattle Cascades,San Jose Spiders, Oakland Technical High School,https://theaudl.com/stats/game/2021-06-12-SEA-SJ
+2021-06-12-DAL-AUS,2021-06-12,Dallas Roughnecks,Austin Sol,Chaparral Stadium,https://theaudl.com/stats/game/2021-06-12-DAL-AUS
+2021-06-12-DET-IND,2021-06-12,Detroit Mechanix,Indianapolis AlleyCats,Grand Park,https://theaudl.com/stats/game/2021-06-12-DET-IND
+2021-06-13-LA-SD,2021-06-13,Los Angeles Aviators,San Diego Growlers,Mission Bay,https://theaudl.com/stats/game/2021-06-13-LA-SD
 2021-06-18-NY-PIT,2021-06-18,New York Empire,Pittsburgh Thunderbirds,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,San Diego Growlers,San Jose Spiders,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Madison Radicals,Minnesota Wind Chill,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Boston Glory,DC Breeze,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Los Angeles Aviators,Dallas Roughnecks,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Boston Glory,Raleigh Flyers,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Chicago Union,Detroit Mechanix,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Atlanta Hustle,Tampa Bay Cannons,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Pittsburgh Thunderbirds,Philadelphia Phoenix,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Los Angeles Aviators,Austin Sol,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,San Diego Growlers,Seattle Cascades,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
-2021-06-18-NY-PIT,2021-06-18,Indianapolis AlleyCats,Madison Radicals,JC Stone Field,https://theaudl.com/stats/game/2021-06-18-NY-PIT
+2021-06-18-SD-SJ,2021-06-18,San Diego Growlers,San Jose Spiders, Oakland Technical High School,https://theaudl.com/stats/game/2021-06-18-SD-SJ
+2021-06-18-MAD-MIN,2021-06-18,Madison Radicals,Minnesota Wind Chill,Sea Foam Stadium,https://theaudl.com/stats/game/2021-06-18-MAD-MIN
+2021-06-18-BOS-DC,2021-06-18,Boston Glory,DC Breeze,"Carlini Field, Catholic U",https://theaudl.com/stats/game/2021-06-18-BOS-DC
+2021-06-18-LA-DAL,2021-06-18,Los Angeles Aviators,Dallas Roughnecks, John Paul II High School,https://theaudl.com/stats/game/2021-06-18-LA-DAL
+2021-06-19-BOS-RAL,2021-06-19,Boston Glory,Raleigh Flyers,Durham County Stadium,https://theaudl.com/stats/game/2021-06-19-BOS-RAL
+2021-06-19-CHI-DET,2021-06-19,Chicago Union,Detroit Mechanix,Grand Rapids Christian HS,https://theaudl.com/stats/game/2021-06-19-CHI-DET
+2021-06-19-ATL-TB,2021-06-19,Atlanta Hustle,Tampa Bay Cannons,Campbell Park ,https://theaudl.com/stats/game/2021-06-19-ATL-TB
+2021-06-19-PIT-PHI,2021-06-19,Pittsburgh Thunderbirds,Philadelphia Phoenix,South Philadelphia Super Site,https://theaudl.com/stats/game/2021-06-19-PIT-PHI
+2021-06-19-LA-AUS,2021-06-19,Los Angeles Aviators,Austin Sol,Chaparral Stadium,https://theaudl.com/stats/game/2021-06-19-LA-AUS
+2021-06-20-SD-SEA,2021-06-20,San Diego Growlers,Seattle Cascades,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-06-20-SD-SEA
+2021-06-20-IND-MAD,2021-06-20,Indianapolis AlleyCats,Madison Radicals,Breese Stevens Field,https://theaudl.com/stats/game/2021-06-20-IND-MAD
 2021-06-25-DAL-LA,2021-06-25,Dallas Roughnecks,Los Angeles Aviators,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Tampa Bay Cannons,Boston Glory,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Philadelphia Phoenix,Raleigh Flyers,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Austin Sol,Seattle Cascades,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Detroit Mechanix,Minnesota Wind Chill,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Austin Sol,San Jose Spiders,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Dallas Roughnecks,San Diego Growlers,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Philadelphia Phoenix,Atlanta Hustle,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Tampa Bay Cannons,New York Empire,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Chicago Union,Indianapolis AlleyCats,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
-2021-06-25-DAL-LA,2021-06-25,Detroit Mechanix,Madison Radicals,LA Southwest College,https://theaudl.com/stats/game/2021-06-25-DAL-LA
+2021-06-25-TB-BOS,2021-06-25,Tampa Bay Cannons,Boston Glory,Hormel Stadium,https://theaudl.com/stats/game/2021-06-25-TB-BOS
+2021-06-25-PHI-RAL,2021-06-25,Philadelphia Phoenix,Raleigh Flyers,Durham County Stadium,https://theaudl.com/stats/game/2021-06-25-PHI-RAL
+2021-06-25-AUS-SEA,2021-06-25,Austin Sol,Seattle Cascades,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-06-25-AUS-SEA
+2021-06-26-DET-MIN,2021-06-26,Detroit Mechanix,Minnesota Wind Chill,Sea Foam Stadium,https://theaudl.com/stats/game/2021-06-26-DET-MIN
+2021-06-26-AUS-SJ,2021-06-26,Austin Sol,San Jose Spiders, Oakland Technical High School,https://theaudl.com/stats/game/2021-06-26-AUS-SJ
+2021-06-26-DAL-SD,2021-06-26,Dallas Roughnecks,San Diego Growlers,Torrey Pines HS,https://theaudl.com/stats/game/2021-06-26-DAL-SD
+2021-06-26-PHI-ATL,2021-06-26,Philadelphia Phoenix,Atlanta Hustle,St Pius HS Field,https://theaudl.com/stats/game/2021-06-26-PHI-ATL
+2021-06-26-TB-NY,2021-06-26,Tampa Bay Cannons,New York Empire,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-06-26-TB-NY
+2021-06-26-CHI-IND,2021-06-26,Chicago Union,Indianapolis AlleyCats,Grand Park,https://theaudl.com/stats/game/2021-06-26-CHI-IND
+2021-06-27-DET-MAD,2021-06-27,Detroit Mechanix,Madison Radicals,Breese Stevens Field,https://theaudl.com/stats/game/2021-06-27-DET-MAD
 2021-07-02-MAD-CHI,2021-07-02,Madison Radicals,Chicago Union,Langhorst Field,https://theaudl.com/stats/game/2021-07-02-MAD-CHI
-2021-07-02-MAD-CHI,2021-07-02,Seattle Cascades,Austin Sol,Langhorst Field,https://theaudl.com/stats/game/2021-07-02-MAD-CHI
-2021-07-02-MAD-CHI,2021-07-02,New York Empire,DC Breeze,Langhorst Field,https://theaudl.com/stats/game/2021-07-02-MAD-CHI
-2021-07-02-MAD-CHI,2021-07-02,Philadelphia Phoenix,Pittsburgh Thunderbirds,Langhorst Field,https://theaudl.com/stats/game/2021-07-02-MAD-CHI
-2021-07-02-MAD-CHI,2021-07-02,Raleigh Flyers,Tampa Bay Cannons,Langhorst Field,https://theaudl.com/stats/game/2021-07-02-MAD-CHI
-2021-07-02-MAD-CHI,2021-07-02,Madison Radicals,Indianapolis AlleyCats,Langhorst Field,https://theaudl.com/stats/game/2021-07-02-MAD-CHI
-2021-07-02-MAD-CHI,2021-07-02,Seattle Cascades,Dallas Roughnecks,Langhorst Field,https://theaudl.com/stats/game/2021-07-02-MAD-CHI
+2021-07-02-SEA-AUS,2021-07-02,Seattle Cascades,Austin Sol,Chaparral Stadium,https://theaudl.com/stats/game/2021-07-02-SEA-AUS
+2021-07-02-NY-DC,2021-07-02,New York Empire,DC Breeze,"Carlini Field, Catholic U",https://theaudl.com/stats/game/2021-07-02-NY-DC
+2021-07-03-PHI-PIT,2021-07-03,Philadelphia Phoenix,Pittsburgh Thunderbirds,JC Stone Field,https://theaudl.com/stats/game/2021-07-03-PHI-PIT
+2021-07-03-RAL-TB,2021-07-03,Raleigh Flyers,Tampa Bay Cannons,Campbell Park ,https://theaudl.com/stats/game/2021-07-03-RAL-TB
+2021-07-03-MAD-IND,2021-07-03,Madison Radicals,Indianapolis AlleyCats,Grand Park,https://theaudl.com/stats/game/2021-07-03-MAD-IND
+2021-07-03-SEA-DAL,2021-07-03,Seattle Cascades,Dallas Roughnecks, John Paul II High School,https://theaudl.com/stats/game/2021-07-03-SEA-DAL
 2021-07-09-PHI-NY,2021-07-09,Philadelphia Phoenix,New York Empire,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,Austin Sol,Dallas Roughnecks,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,Tampa Bay Cannons,Raleigh Flyers,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,Chicago Union,Madison Radicals,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,DC Breeze,Atlanta Hustle,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,Philadelphia Phoenix,Boston Glory,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,Minnesota Wind Chill,Indianapolis AlleyCats,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,Austin Sol,Dallas Roughnecks,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
-2021-07-09-PHI-NY,2021-07-09,Minnesota Wind Chill,Chicago Union,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-07-09-PHI-NY
+2021-07-09-AUS-DAL,2021-07-09,Austin Sol,Dallas Roughnecks, John Paul II High School,https://theaudl.com/stats/game/2021-07-09-AUS-DAL
+2021-07-10-TB-RAL,2021-07-10,Tampa Bay Cannons,Raleigh Flyers,Durham County Stadium,https://theaudl.com/stats/game/2021-07-10-TB-RAL
+2021-07-10-CHI-MAD,2021-07-10,Chicago Union,Madison Radicals,Breese Stevens Field,https://theaudl.com/stats/game/2021-07-10-CHI-MAD
+2021-07-10-DC-ATL,2021-07-10,DC Breeze,Atlanta Hustle,St Pius HS Field,https://theaudl.com/stats/game/2021-07-10-DC-ATL
+2021-07-10-PHI-BOS,2021-07-10,Philadelphia Phoenix,Boston Glory,Hormel Stadium,https://theaudl.com/stats/game/2021-07-10-PHI-BOS
+2021-07-10-MIN-IND,2021-07-10,Minnesota Wind Chill,Indianapolis AlleyCats,Grand Park,https://theaudl.com/stats/game/2021-07-10-MIN-IND
+2021-07-10-AUS-DAL,2021-07-10,Austin Sol,Dallas Roughnecks, John Paul II High School,https://theaudl.com/stats/game/2021-07-10-AUS-DAL
+2021-07-11-MIN-CHI,2021-07-11,Minnesota Wind Chill,Chicago Union,Langhorst Field,https://theaudl.com/stats/game/2021-07-11-MIN-CHI
 2021-07-16-DAL-SEA,2021-07-16,Dallas Roughnecks,Seattle Cascades,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Atlanta Hustle,Philadelphia Phoenix,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Raleigh Flyers,Pittsburgh Thunderbirds,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Detroit Mechanix,Minnesota Wind Chill,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Austin Sol,Los Angeles Aviators,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Indianapolis AlleyCats,Madison Radicals,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Atlanta Hustle,DC Breeze,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Dallas Roughnecks,San Jose Spiders,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,New York Empire,Boston Glory,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Austin Sol,San Diego Growlers,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
-2021-07-16-DAL-SEA,2021-07-16,Indianapolis AlleyCats,Chicago Union,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-16-DAL-SEA
+2021-07-16-ATL-PHI,2021-07-16,Atlanta Hustle,Philadelphia Phoenix,South Philadelphia Super Site,https://theaudl.com/stats/game/2021-07-16-ATL-PHI
+2021-07-17-RAL-PIT,2021-07-17,Raleigh Flyers,Pittsburgh Thunderbirds,JC Stone Field,https://theaudl.com/stats/game/2021-07-17-RAL-PIT
+2021-07-17-DET-MIN,2021-07-17,Detroit Mechanix,Minnesota Wind Chill,Sea Foam Stadium,https://theaudl.com/stats/game/2021-07-17-DET-MIN
+2021-07-17-AUS-LA,2021-07-17,Austin Sol,Los Angeles Aviators,LA Southwest College,https://theaudl.com/stats/game/2021-07-17-AUS-LA
+2021-07-17-IND-MAD,2021-07-17,Indianapolis AlleyCats,Madison Radicals,Breese Stevens Field,https://theaudl.com/stats/game/2021-07-17-IND-MAD
+2021-07-17-ATL-DC,2021-07-17,Atlanta Hustle,DC Breeze,"Carlini Field, Catholic U",https://theaudl.com/stats/game/2021-07-17-ATL-DC
+2021-07-17-DAL-SJ,2021-07-17,Dallas Roughnecks,San Jose Spiders, Oakland Technical High School,https://theaudl.com/stats/game/2021-07-17-DAL-SJ
+2021-07-17-NY-BOS,2021-07-17,New York Empire,Boston Glory,Hormel Stadium,https://theaudl.com/stats/game/2021-07-17-NY-BOS
+2021-07-18-AUS-SD,2021-07-18,Austin Sol,San Diego Growlers,Mission Bay,https://theaudl.com/stats/game/2021-07-18-AUS-SD
+2021-07-18-IND-CHI,2021-07-18,Indianapolis AlleyCats,Chicago Union,Langhorst Field,https://theaudl.com/stats/game/2021-07-18-IND-CHI
 2021-07-23-LA-SEA,2021-07-23,Los Angeles Aviators,Seattle Cascades,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,San Diego Growlers,Dallas Roughnecks,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,Chicago Union,Minnesota Wind Chill,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,Indianapolis AlleyCats,Detroit Mechanix,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,Toronto Rush,Ottawa Outlaws,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,Boston Glory,Tampa Bay Cannons,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,Los Angeles Aviators,San Jose Spiders,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,San Diego Growlers,Austin Sol,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,New York Empire,Atlanta Hustle,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
-2021-07-23-LA-SEA,2021-07-23,Ottawa Outlaws,Montreal Royal,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-07-23-LA-SEA
+2021-07-23-SD-DAL,2021-07-23,San Diego Growlers,Dallas Roughnecks, John Paul II High School,https://theaudl.com/stats/game/2021-07-23-SD-DAL
+2021-07-24-CHI-MIN,2021-07-24,Chicago Union,Minnesota Wind Chill,Sea Foam Stadium,https://theaudl.com/stats/game/2021-07-24-CHI-MIN
+2021-07-24-IND-DET,2021-07-24,Indianapolis AlleyCats,Detroit Mechanix,Grand Rapids Christian HS,https://theaudl.com/stats/game/2021-07-24-IND-DET
+2021-07-24-TOR-OTT,2021-07-24,Toronto Rush,Ottawa Outlaws,MNP Park,https://theaudl.com/stats/game/2021-07-24-TOR-OTT
+2021-07-24-BOS-TB,2021-07-24,Boston Glory,Tampa Bay Cannons,Campbell Park ,https://theaudl.com/stats/game/2021-07-24-BOS-TB
+2021-07-24-LA-SJ,2021-07-24,Los Angeles Aviators,San Jose Spiders, Oakland Technical High School,https://theaudl.com/stats/game/2021-07-24-LA-SJ
+2021-07-24-SD-AUS,2021-07-24,San Diego Growlers,Austin Sol,Chaparral Stadium,https://theaudl.com/stats/game/2021-07-24-SD-AUS
+2021-07-24-NY-ATL,2021-07-24,New York Empire,Atlanta Hustle,St Pius HS Field,https://theaudl.com/stats/game/2021-07-24-NY-ATL
+2021-07-25-OTT-MTL,2021-07-25,Ottawa Outlaws,Montreal Royal,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-07-25-OTT-MTL
 2021-07-30-PIT-RAL,2021-07-30,Pittsburgh Thunderbirds,Raleigh Flyers,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,Chicago Union,Madison Radicals,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,Seattle Cascades,San Diego Growlers,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,Philadelphia Phoenix,DC Breeze,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,Indianapolis AlleyCats,Minnesota Wind Chill,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,Madison Radicals,Detroit Mechanix,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,New York Empire,Tampa Bay Cannons,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,San Jose Spiders,Austin Sol,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,Pittsburgh Thunderbirds,Atlanta Hustle,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,Seattle Cascades,Los Angeles Aviators,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
-2021-07-30-PIT-RAL,2021-07-30,San Jose Spiders,Dallas Roughnecks,Durham County Stadium,https://theaudl.com/stats/game/2021-07-30-PIT-RAL
+2021-07-30-CHI-MAD,2021-07-30,Chicago Union,Madison Radicals,Breese Stevens Field,https://theaudl.com/stats/game/2021-07-30-CHI-MAD
+2021-07-31-SEA-SD,2021-07-31,Seattle Cascades,San Diego Growlers,Mission Bay,https://theaudl.com/stats/game/2021-07-31-SEA-SD
+2021-07-31-PHI-DC,2021-07-31,Philadelphia Phoenix,DC Breeze,"Carlini Field, Catholic U",https://theaudl.com/stats/game/2021-07-31-PHI-DC
+2021-07-31-IND-MIN,2021-07-31,Indianapolis AlleyCats,Minnesota Wind Chill,Sea Foam Stadium,https://theaudl.com/stats/game/2021-07-31-IND-MIN
+2021-07-31-MAD-DET,2021-07-31,Madison Radicals,Detroit Mechanix,Grand Rapids Christian HS,https://theaudl.com/stats/game/2021-07-31-MAD-DET
+2021-07-31-NY-TB,2021-07-31,New York Empire,Tampa Bay Cannons,Campbell Park ,https://theaudl.com/stats/game/2021-07-31-NY-TB
+2021-07-31-SJ-AUS,2021-07-31,San Jose Spiders,Austin Sol,Chaparral Stadium,https://theaudl.com/stats/game/2021-07-31-SJ-AUS
+2021-07-31-PIT-ATL,2021-07-31,Pittsburgh Thunderbirds,Atlanta Hustle,St Pius HS Field,https://theaudl.com/stats/game/2021-07-31-PIT-ATL
+2021-08-01-SEA-LA,2021-08-01,Seattle Cascades,Los Angeles Aviators,LA Southwest College,https://theaudl.com/stats/game/2021-08-01-SEA-LA
+2021-08-01-SJ-DAL,2021-08-01,San Jose Spiders,Dallas Roughnecks, John Paul II High School,https://theaudl.com/stats/game/2021-08-01-SJ-DAL
 2021-08-06-RAL-BOS,2021-08-06,Raleigh Flyers,Boston Glory,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,DC Breeze,Philadelphia Phoenix,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,Los Angeles Aviators,San Diego Growlers,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,San Jose Spiders,Seattle Cascades,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,Toronto Rush,Montreal Royal,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,Detroit Mechanix,Chicago Union,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,Tampa Bay Cannons,Atlanta Hustle,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,Raleigh Flyers,New York Empire,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,Dallas Roughnecks,Austin Sol,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,Montreal Royal,Ottawa Outlaws,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
-2021-08-06-RAL-BOS,2021-08-06,DC Breeze,Pittsburgh Thunderbirds,Hormel Stadium,https://theaudl.com/stats/game/2021-08-06-RAL-BOS
+2021-08-06-DC-PHI,2021-08-06,DC Breeze,Philadelphia Phoenix,South Philadelphia Super Site,https://theaudl.com/stats/game/2021-08-06-DC-PHI
+2021-08-07-LA-SD,2021-08-07,Los Angeles Aviators,San Diego Growlers,Mission Bay,https://theaudl.com/stats/game/2021-08-07-LA-SD
+2021-08-07-SJ-SEA,2021-08-07,San Jose Spiders,Seattle Cascades,Seattle Memorial Stadium,https://theaudl.com/stats/game/2021-08-07-SJ-SEA
+2021-08-07-TOR-MTL,2021-08-07,Toronto Rush,Montreal Royal,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-07-TOR-MTL
+2021-08-07-DET-CHI,2021-08-07,Detroit Mechanix,Chicago Union,Langhorst Field,https://theaudl.com/stats/game/2021-08-07-DET-CHI
+2021-08-07-TB-ATL,2021-08-07,Tampa Bay Cannons,Atlanta Hustle,St Pius HS Field,https://theaudl.com/stats/game/2021-08-07-TB-ATL
+2021-08-07-RAL-NY,2021-08-07,Raleigh Flyers,New York Empire,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-07-RAL-NY
+2021-08-07-DAL-AUS,2021-08-07,Dallas Roughnecks,Austin Sol,Chaparral Stadium,https://theaudl.com/stats/game/2021-08-07-DAL-AUS
+2021-08-08-MTL-OTT,2021-08-08,Montreal Royal,Ottawa Outlaws,MNP Park,https://theaudl.com/stats/game/2021-08-08-MTL-OTT
+2021-08-08-DC-PIT,2021-08-08,DC Breeze,Pittsburgh Thunderbirds,JC Stone Field,https://theaudl.com/stats/game/2021-08-08-DC-PIT
 2021-08-12-OTT-MTL,2021-08-12,Ottawa Outlaws,Montreal Royal,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Seattle Cascades,San Jose Spiders,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,New York Empire,Philadelphia Phoenix,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Pittsburgh Thunderbirds,Boston Glory,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,San Diego Growlers,Los Angeles Aviators,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Montreal Royal,Toronto Rush,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Minnesota Wind Chill,Detroit Mechanix,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Atlanta Hustle,Raleigh Flyers,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,DC Breeze,Tampa Bay Cannons,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Pittsburgh Thunderbirds,New York Empire,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Ottawa Outlaws,Toronto Rush,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
-2021-08-12-OTT-MTL,2021-08-12,Minnesota Wind Chill,Indianapolis AlleyCats,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-12-OTT-MTL
+2021-08-13-SEA-SJ,2021-08-13,Seattle Cascades,San Jose Spiders,Laney College Football Field,https://theaudl.com/stats/game/2021-08-13-SEA-SJ
+2021-08-13-NY-PHI,2021-08-13,New York Empire,Philadelphia Phoenix,TBD,https://theaudl.com/stats/game/2021-08-13-NY-PHI
+2021-08-13-PIT-BOS,2021-08-13,Pittsburgh Thunderbirds,Boston Glory,Hormel Stadium,https://theaudl.com/stats/game/2021-08-13-PIT-BOS
+2021-08-14-SD-LA,2021-08-14,San Diego Growlers,Los Angeles Aviators,LA Southwest College,https://theaudl.com/stats/game/2021-08-14-SD-LA
+2021-08-14-MTL-TOR,2021-08-14,Montreal Royal,Toronto Rush,TBD,https://theaudl.com/stats/game/2021-08-14-MTL-TOR
+2021-08-14-MIN-DET,2021-08-14,Minnesota Wind Chill,Detroit Mechanix,Grand Rapids Christian HS,https://theaudl.com/stats/game/2021-08-14-MIN-DET
+2021-08-14-ATL-RAL,2021-08-14,Atlanta Hustle,Raleigh Flyers,Durham County Stadium,https://theaudl.com/stats/game/2021-08-14-ATL-RAL
+2021-08-14-DC-TB,2021-08-14,DC Breeze,Tampa Bay Cannons,Campbell Park ,https://theaudl.com/stats/game/2021-08-14-DC-TB
+2021-08-14-PIT-NY,2021-08-14,Pittsburgh Thunderbirds,New York Empire,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-14-PIT-NY
+2021-08-15-OTT-TOR,2021-08-15,Ottawa Outlaws,Toronto Rush,TBD,https://theaudl.com/stats/game/2021-08-15-OTT-TOR
+2021-08-15-MIN-IND,2021-08-15,Minnesota Wind Chill,Indianapolis AlleyCats,Grand Park,https://theaudl.com/stats/game/2021-08-15-MIN-IND
 2021-08-20-BOS-NY,2021-08-20,Boston Glory,New York Empire,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,San Jose Spiders,San Diego Growlers,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,San Jose Spiders,Los Angeles Aviators,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,Chicago Union,Detroit Mechanix,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,Raleigh Flyers,DC Breeze,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,Atlanta Hustle,Pittsburgh Thunderbirds,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,Toronto Rush,Montreal Royal,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,Boston Glory,Philadelphia Phoenix,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,Montreal Royal,Ottawa Outlaws,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
-2021-08-20-BOS-NY,2021-08-20,Madison Radicals,Minnesota Wind Chill,Joseph F. Fosina Field,https://theaudl.com/stats/game/2021-08-20-BOS-NY
+2021-08-20-SJ-SD,2021-08-20,San Jose Spiders,San Diego Growlers,Mission Bay,https://theaudl.com/stats/game/2021-08-20-SJ-SD
+2021-08-21-SJ-LA,2021-08-21,San Jose Spiders,Los Angeles Aviators,LA Southwest College,https://theaudl.com/stats/game/2021-08-21-SJ-LA
+2021-08-21-CHI-DET,2021-08-21,Chicago Union,Detroit Mechanix,Grand Rapids Christian HS,https://theaudl.com/stats/game/2021-08-21-CHI-DET
+2021-08-21-RAL-DC,2021-08-21,Raleigh Flyers,DC Breeze,"Carlini Field, Catholic U",https://theaudl.com/stats/game/2021-08-21-RAL-DC
+2021-08-21-ATL-PIT,2021-08-21,Atlanta Hustle,Pittsburgh Thunderbirds,JC Stone Field,https://theaudl.com/stats/game/2021-08-21-ATL-PIT
+2021-08-21-TOR-MTL,2021-08-21,Toronto Rush,Montreal Royal,Complexe Sportif Claude-Robillard,https://theaudl.com/stats/game/2021-08-21-TOR-MTL
+2021-08-21-BOS-PHI,2021-08-21,Boston Glory,Philadelphia Phoenix,South Philadelphia Super Site,https://theaudl.com/stats/game/2021-08-21-BOS-PHI
+2021-08-22-MTL-OTT,2021-08-22,Montreal Royal,Ottawa Outlaws,MNP Park,https://theaudl.com/stats/game/2021-08-22-MTL-OTT
+2021-08-22-MAD-MIN,2021-08-22,Madison Radicals,Minnesota Wind Chill,Sea Foam Stadium,https://theaudl.com/stats/game/2021-08-22-MAD-MIN
