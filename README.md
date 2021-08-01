@@ -28,6 +28,7 @@
     - [X] [Team Stats](https://theaudl.com/stats/team?year=1)
     - [X] [Team Season Player Stats](https://theaudl.com/stats/team-season-players)
     - [X] [All-Time Player Stats](https://theaudl.com/stats/players-all-time)
+    - [X] [Season Player Stats](https://theaudl.com/stats/player-season)
     - [ ] [Team Game Stats](https://theaudl.com/stats/team-game-stats)
 - [ ] Visualize Team and Player Statistics
 - [ ] Scatterplot and Cluster Analysis
