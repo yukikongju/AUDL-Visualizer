@@ -1,8 +1,9 @@
 #!/usr/bin/env/python
 
 import pandas as pd
+import re
 import requests
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup
 
 AUDL_DEBUT = 2012
 CURRENT_YEAR = 2021
@@ -35,7 +36,7 @@ class Scrapper(object):
         """ Get Year and team from url """
         # https://stackoverflow.com/questions/53459163/scraping-from-dropdown-option-value-python-beautifulsoup
         response = requests.get(url)
-        soup = bs(response.content, features="lxml")
+        soup = BeautifulSoup(response.content, features="lxml")
         items = soup.select('option[selected]')
         values = [item.text for item in items]
         return values[0], values[1]  # return year, team
@@ -43,7 +44,7 @@ class Scrapper(object):
     def get_year_from_team_url(self, url):
         """ Get Year from url """
         response = requests.get(url)
-        soup = bs(response.content, features="lxml")
+        soup = BeautifulSoup(response.content, features="lxml")
         items = soup.select('option[selected]')
         values = [item.text for item in items]
         return values[0]  # return year
@@ -97,9 +98,52 @@ class Scrapper(object):
         download_path = self.download_dir + 'AllTimePlayerStats.csv'
         df.to_csv(download_path, sep=',', index=False)
 
+        # remove duplicate rows
+        df.drop_duplicates()
+
+    def get_season_schedule(self):
+        """ Get season match schedule: game_id, date, home, away, score """
+        NUM_OF_WEEKS = 12  # number of weeks in season
+        base_url = "https://theaudl.com/league/schedule/week-"
+
+        # fetch all matches in season by iterating through all weeks
+        games = []
+        for week in range(1, NUM_OF_WEEKS+1):
+            url = base_url + str(week)
+            response = requests.get(url)
+            soup = BeautifulSoup(response.text, "lxml")
+            # fetch page
+            tds = soup.findAll(
+                'td', {"class": "views-field views-field-team-field-team-display-name"})
+            for index, td in enumerate(tds):
+                a_tag = td.find('a')
+                team_name = a_tag.text
+                href = a_tag['href']
+                game_id = re.sub('/[a-z]*/game/', '', href)
+                date = game_id[:10]  # truncate before team symbols
+
+                # create game every two pass: first = away; second = home
+                if index % 2 == 0:
+                    home_team = team_name
+                else:
+                    away_team = team_name
+                    game_url = "https://theaudl.com/stats/game/" + game_id
+                    game = [game_id, date, home_team, away_team, game_url]
+                    games.append(game)
+
+        # create season dataframe
+        COLUMN_NAMES = ['ID', 'date', 'home', 'away', 'url']
+        df = pd.DataFrame(games, columns=COLUMN_NAMES)
+
+        # save season data frame as csv file
+        download_path = self.download_dir + 'GameStats/schedule_' +\
+            date[:4] + '.csv'
+        df.to_csv(download_path, sep=',', index=False)
+
 
 if __name__ == "__main__":
     scrapper = Scrapper(download_dir="Data/")
     #  scrapper.download_all_team_stats()
     #  scrapper.download_all_team_season_player_stats()
-    scrapper.download_all_time_player_stats()
+    #  scrapper.download_all_time_player_stats()
+    scrapper.get_season_schedule()
