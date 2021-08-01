@@ -4,15 +4,15 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+AUDL_DEBUT = 2012
+CURRENT_YEAR = 2021
+NUMBER_OF_TEAMS = 22
+COVID_YEAR = 2020
+
 
 class Scrapper(object):
 
     """Docstring for Scrapper. """
-
-    AUDL_DEBUT = 2012
-    CURRENT_YEAR = 2021
-    NUMBER_OF_TEAMS = 22
-    COVID_YEAR = 2020
 
     def __init__(self, download_dir: str):
         """TODO: to be defined. """
@@ -51,26 +51,25 @@ class Scrapper(object):
 
     def download_all_team_season_player_stats(self) -> None:
         """ Download stats sheet for all given team in all seasons """
-        base_url = "https://theaudl.com/stats/team-season-players?year="
         for year_id in range(1, self.get_number_of_seasons()+1):
             for team_id in range(1, NUMBER_OF_TEAMS+1):
-                url = base_url + str(year_id) + '&aw_team_id=' + str(team_id)
-                year, team = self.get_year_and_team_from_team_season_player_url(
-                    url)
-                try:  # if the team exists that year
-                    df = pd.read_html(url)[0]
-                    df = df.rename(columns={'Unnamed: 0': 'Player'})
-                    team_ = team.replace(" ", "")
-                    download_path = self.download_dir + \
-                        'Team_Season_Player_Stats/' + team_ + '_' + year + '.csv'
-                    df.to_csv(download_path, sep=',', index=False)
-                    print(
-                        f"Succesfully downloaded {year} {team} players stats")
-                except ValueError:
-                    print(f"{team} was not part of AUDL that year")
+                self.download_team_season_player_stats(year_id, team_id)
 
-    def update_current_team_stats(self):
-        pass
+    def download_team_season_player_stats(self, year_id: int, team_id: int) -> None:
+        base_url = "https://theaudl.com/stats/team-season-players?year="
+        url = base_url + str(year_id) + '&aw_team_id=' + str(team_id)
+        year, team = self.get_year_and_team_from_team_season_player_url(url)
+        try:  # if the team exists that year
+            df = pd.read_html(url)[0]
+            df = df.rename(columns={'Unnamed: 0': 'Player'})
+            team_ = team.replace(" ", "")
+            download_path = self.download_dir + \
+                'Team_Season_Player_Stats/' + team_ + '_' + year + '.csv'
+            df.to_csv(download_path, sep=',', index=False)
+            print(
+                f"Succesfully downloaded {year} {team} players stats")
+        except ValueError:
+            print(f"{team} was not part of AUDL that year")
 
     def get_number_of_seasons(self) -> int:
         """ Get Number of Season since inauguration -> no season in 2020 (covid)"""
@@ -95,11 +94,13 @@ class Scrapper(object):
 
         # concatenate all page dataframe into single one
         df = pd.concat(dfs)
-        download_path = self.download_dir + 'AllTimePlayerStats.csv'
-        df.to_csv(download_path, sep=',', index=False)
 
         # remove duplicate rows
         df.drop_duplicates()
+
+        # save dataframe to csv
+        download_path = self.download_dir + 'AllTimePlayerStats.csv'
+        df.to_csv(download_path, sep=',', index=False)
 
     def download_season_schedule(self) -> None:
         """ Get season match schedule: game_id, date, home, away, score """
@@ -144,6 +145,10 @@ class Scrapper(object):
         download_path = self.download_dir + 'GameStats/schedule_' +\
             date[:4] + '.csv'
         df.to_csv(download_path, sep=',', index=False)
+
+    def update_current_team_stats(self) -> None:
+        """ Update current season team stats sheet """
+        pass
 
 
 def main():
