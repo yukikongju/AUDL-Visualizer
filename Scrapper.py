@@ -1,7 +1,6 @@
 #!/usr/bin/env/python
 
 import pandas as pd
-import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -113,26 +112,30 @@ class Scrapper(object):
             response = requests.get(url)
             soup = BeautifulSoup(response.text, "lxml")
             # fetch page
-            tds = soup.findAll(
-                'td', {"class": "views-field views-field-team-field-team-display-name"})
-            for index, td in enumerate(tds):
-                a_tag = td.find('a')
-                team_name = a_tag.text
-                href = a_tag['href']
-                game_id = re.sub('/[a-z]*/game/', '', href)
-                date = game_id[:10]  # truncate before team symbols
+            hrefs = soup.findAll('span', {"class": "audl-schedule-gc-link"})
+            names = soup.findAll('td', {"class": "audl-schedule-team-name"})
+            locations = soup.findAll('td', {"class": "audl-schedule-location"})
+            for index, _ in enumerate(names):
+                team_name = names[index].text
 
                 # create game every two pass: first = away; second = home
                 if index % 2 == 0:
-                    home_team = team_name
-                else:
                     away_team = team_name
+                    href = hrefs[index % 2].find(
+                        'a')['href']  # il y 2x moins de href
+                    game_id = href.replace('/league/game/', '')
+                    date = game_id[:10]  # truncate before team symbols
+                    # il y a 2x moins de locations
+                    location = locations[index % 2].text
+                else:
+                    home_team = team_name
                     game_url = "https://theaudl.com/stats/game/" + game_id
-                    game = [game_id, date, home_team, away_team, game_url]
+                    game = [game_id, date, away_team, home_team,
+                            location, game_url]
                     games.append(game)
 
         # create season dataframe
-        COLUMN_NAMES = ['ID', 'date', 'home', 'away', 'url']
+        COLUMN_NAMES = ['ID', 'date', 'away', 'home', 'location', 'url']
         df = pd.DataFrame(games, columns=COLUMN_NAMES)
 
         # save season data frame as csv file
@@ -146,4 +149,4 @@ if __name__ == "__main__":
     #  scrapper.download_all_team_stats()
     #  scrapper.download_all_team_season_player_stats()
     #  scrapper.download_all_time_player_stats()
-    scrapper.get_season_schedule()
+    #  scrapper.get_season_schedule()
