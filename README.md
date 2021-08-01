@@ -31,6 +31,7 @@
     - [X] [Season Player Stats](https://theaudl.com/stats/player-season)
     - [X] [Season Schedule](https://theaudl.com/league/schedule/week)
     - [ ] [Team Game Stats](https://theaudl.com/stats/team-game-stats)
+- [ ] Update CSV File automatically every week
 - [ ] Visualize Team and Player Statistics
 - [ ] Scatterplot and Cluster Analysis
 

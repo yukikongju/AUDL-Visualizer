@@ -23,14 +23,17 @@ class Scrapper(object):
         base_url = "https://theaudl.com/stats/team?year="
         num_seasons = self.get_number_of_seasons()
         for season in range(1, num_seasons+1):
-            url = base_url + str(season)
-            year = self.get_year_from_team_url(url)
-            df = pd.read_html(url)[0]
-            download_path = self.download_dir + "Team_Stats/" +\
-                "TeamStats_" + str(year) + '.csv'
-            #  download_path = f"{self.download_dir}Team_Stats/TeamStats_{str(year)}.csv"
-            df.to_csv(download_path, sep=',', index=False)
-            print(f"Succesfully downloaded Team Stats for {year}")
+            #  url = base_url + str(season)
+            self.download_team_stats(url=base_url+str(season))
+
+    def download_team_stats(self, url: str) -> None:
+        year = self.get_year_from_team_url(url)
+        df = pd.read_html(url)[0]
+        download_path = self.download_dir + "Team_Stats/" +\
+            "TeamStats_" + str(year) + '.csv'
+        #  download_path = f"{self.download_dir}Team_Stats/TeamStats_{str(year)}.csv"
+        df.to_csv(download_path, sep=',', index=False)
+        print(f"Succesfully downloaded Team Stats for {year}")
 
     def get_year_and_team_from_team_season_player_url(self, url: str) -> [int, str]:
         """ Get Year and team from url """
@@ -67,7 +70,7 @@ class Scrapper(object):
                 'Team_Season_Player_Stats/' + team_ + '_' + year + '.csv'
             df.to_csv(download_path, sep=',', index=False)
             print(
-                f"Succesfully downloaded {year} {team} players stats")
+                f"Succesfully updated {year} {team} players stats")
         except ValueError:
             print(f"{team} was not part of AUDL that year")
 
@@ -86,7 +89,7 @@ class Scrapper(object):
                 url = base_url + str(page)
                 page_df = pd.read_html(url)[0]
                 dfs.append(page_df)
-                print(f"Added page {page}")
+                print(f"Updating page {page} ...")
                 page = page + 1
             except ValueError:
                 print("No more players to add to dataframe")
