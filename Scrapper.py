@@ -4,21 +4,21 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-AUDL_DEBUT = 2012
-CURRENT_YEAR = 2021
-NUMBER_OF_TEAMS = 22
-COVID_YEAR = 2020
-
 
 class Scrapper(object):
 
     """Docstring for Scrapper. """
 
-    def __init__(self, download_dir):
+    AUDL_DEBUT = 2012
+    CURRENT_YEAR = 2021
+    NUMBER_OF_TEAMS = 22
+    COVID_YEAR = 2020
+
+    def __init__(self, download_dir: str):
         """TODO: to be defined. """
         self.download_dir = download_dir
 
-    def download_all_team_stats(self):
+    def download_all_team_stats(self) -> None:
         """ Download team stats cheet for all seasons """
         base_url = "https://theaudl.com/stats/team?year="
         num_seasons = self.get_number_of_seasons()
@@ -28,10 +28,11 @@ class Scrapper(object):
             df = pd.read_html(url)[0]
             download_path = self.download_dir + "Team_Stats/" +\
                 "TeamStats_" + str(year) + '.csv'
+            #  download_path = f"{self.download_dir}Team_Stats/TeamStats_{str(year)}.csv"
             df.to_csv(download_path, sep=',', index=False)
-            print("Succesfully downloaded Team Stats for " + year)
+            print(f"Succesfully downloaded Team Stats for {year}")
 
-    def get_year_and_team_from_team_season_player_url(self, url):
+    def get_year_and_team_from_team_season_player_url(self, url: str) -> [int, str]:
         """ Get Year and team from url """
         # https://stackoverflow.com/questions/53459163/scraping-from-dropdown-option-value-python-beautifulsoup
         response = requests.get(url)
@@ -40,7 +41,7 @@ class Scrapper(object):
         values = [item.text for item in items]
         return values[0], values[1]  # return year, team
 
-    def get_year_from_team_url(self, url):
+    def get_year_from_team_url(self, url: str) -> int:
         """ Get Year from url """
         response = requests.get(url)
         soup = BeautifulSoup(response.content, features="lxml")
@@ -48,7 +49,7 @@ class Scrapper(object):
         values = [item.text for item in items]
         return values[0]  # return year
 
-    def download_all_team_season_player_stats(self):
+    def download_all_team_season_player_stats(self) -> None:
         """ Download stats sheet for all given team in all seasons """
         base_url = "https://theaudl.com/stats/team-season-players?year="
         for year_id in range(1, self.get_number_of_seasons()+1):
@@ -63,19 +64,19 @@ class Scrapper(object):
                     download_path = self.download_dir + \
                         'Team_Season_Player_Stats/' + team_ + '_' + year + '.csv'
                     df.to_csv(download_path, sep=',', index=False)
-                    print("Succesfully downloaded " + year + " " + team
-                          + " players stats")
+                    print(
+                        f"Succesfully downloaded {year} {team} players stats")
                 except ValueError:
-                    print(team + " was not part of AUDL that year")
+                    print(f"{team} was not part of AUDL that year")
 
     def update_current_team_stats(self):
         pass
 
-    def get_number_of_seasons(self):
+    def get_number_of_seasons(self) -> int:
         """ Get Number of Season since inauguration -> no season in 2020 (covid)"""
         return CURRENT_YEAR - AUDL_DEBUT
 
-    def download_all_time_player_stats(self):
+    def download_all_time_player_stats(self) -> None:
         """ Download all-time player stats sheet """
         hasPlayerLeft = True
         base_url = "https://theaudl.com/stats/players-all-time?page="
@@ -100,7 +101,7 @@ class Scrapper(object):
         # remove duplicate rows
         df.drop_duplicates()
 
-    def get_season_schedule(self):
+    def download_season_schedule(self) -> None:
         """ Get season match schedule: game_id, date, home, away, score """
         NUM_OF_WEEKS = 12  # number of weeks in season
         base_url = "https://theaudl.com/league/schedule/week-"
@@ -115,12 +116,7 @@ class Scrapper(object):
             hrefs = soup.findAll('span', {"class": "audl-schedule-gc-link"})
             names = soup.findAll('td', {"class": "audl-schedule-team-name"})
             locations = soup.findAll('td', {"class": "audl-schedule-location"})
-            #  print(hrefs)
-            #  print("---------------------------------------")
-            #  print(names)
-            #  print("---------------------------------------")
-            #  print(locations)
-            #  print("---------------------------------------")
+
             i = 0
             for index, _ in enumerate(locations):
                 href = hrefs[index].find('a')['href']
@@ -150,9 +146,13 @@ class Scrapper(object):
         df.to_csv(download_path, sep=',', index=False)
 
 
-if __name__ == "__main__":
+def main():
     scrapper = Scrapper(download_dir="Data/")
     #  scrapper.download_all_team_stats()
     #  scrapper.download_all_team_season_player_stats()
     #  scrapper.download_all_time_player_stats()
-    scrapper.get_season_schedule()
+    #  scrapper.download_season_schedule()
+
+
+if __name__ == "__main__":
+    main()

@@ -7,11 +7,11 @@ class Wrangler(object):
 
     """Docstring for Wrangler. """
 
-    def __init__(self, download_dir):
+    def __init__(self, download_dir: str):
         """TODO: to be defined. """
         self.download_dir = download_dir
 
-    def download_season_player_stats(self, year):
+    def download_season_player_stats(self, year: int) -> None:
         """ Download season player stats by concatenating all team player stats """
         # get all teams in a given season
         team_stats_path = self.download_dir + \
@@ -46,6 +46,10 @@ class Wrangler(object):
         players_df.to_csv(download_path, sep=',', index=False)
 
 
-if __name__ == "__main__":
+def main():
     wrangler = Wrangler(download_dir="Data/")
-    #  wrangler.download_season_player_stats(2019)
+    wrangler.download_season_player_stats(2019)
+
+
+if __name__ == "__main__":
+    main()
